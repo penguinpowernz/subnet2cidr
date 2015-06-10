@@ -1,0 +1,27 @@
+{
+  "name": "subnet2cidr",
+  "version": "0.0.1",
+  "description": "A simple library for converting subnet masks to CIDR notation and vice versa",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/penguinpowernz/subnet2cidr.git"
+  },
+  "keywords": [
+    "cidr",
+    "netmask",
+    "subnet",
+    "ip",
+    "network",
+    "vlsm"
+  ],
+  "author": "Robert McLeod",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/penguinpowernz/subnet2cidr/issues"
+  },
+  "homepage": "https://github.com/penguinpowernz/subnet2cidr#readme"
+}
