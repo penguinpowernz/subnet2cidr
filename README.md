@@ -14,7 +14,7 @@ Usage is simple:
 
 ```js
 
-var cidrize = require('subnet2cidr'),
+var cidrize = require('subnet2cidr').cidrize,
     maskize = require('subnet2cidr').cidr2subnet;
 
 // convert CIDR to subnet mask
@@ -26,9 +26,9 @@ console.log(maskize(1));  // outputs 128.0.0.0
 
 
 // convert subnet mask to CIDR
-console.log(console.log(cidrize('255.0.0.0'));'255.0.0.0'));     // outputs 8
-console.log(cidrize.cidrize('255.255.0.0'));   // outputs 16
-console.log(cidrize.cidrize('255.255.255.0')); // outputs 24
+console.log(cidrize('255.0.0.0'));     // outputs 8
+console.log(cidrize('255.255.0.0'));   // outputs 16
+console.log(cidrize('255.255.255.0')); // outputs 24
 ```
 
 ### Aliases
