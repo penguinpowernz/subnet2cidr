@@ -14,7 +14,7 @@ Usage is simple:
 
 ```js
 
-var cidrize = require('subnet2cidr'),
+var cidrize = require('subnet2cidr').cidrize,
     maskize = require('subnet2cidr').cidr2subnet;
 
 // convert CIDR to subnet mask

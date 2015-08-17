@@ -2,7 +2,7 @@
 /**
  * Turn a Subnet Mask into a CIDR prefix
  */
-module.exports.cidrize = function(subnet) {
+module.exports.cidrize = function(subnet_mask) {
   cidr_bits = 0;
 
   subnet_mask.split('.').forEach(function(octet) {
